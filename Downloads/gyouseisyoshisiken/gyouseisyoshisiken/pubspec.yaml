@@ -1,0 +1,44 @@
+name: gyouseisyoshi_master
+description: "行政書士マスター2026 - 行政書士試験対策アプリ"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # 状態管理
+  provider: ^6.1.2
+  # ルーティング
+  go_router: ^14.6.2
+  # データ永続化
+  shared_preferences: ^2.3.4
+  # モデル生成
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  # 課金
+  in_app_purchase: ^3.2.0
+  # フォント
+  google_fonts: ^6.2.1
+  # 外部リンク
+  url_launcher: ^6.3.1
+  # コレクション操作
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # コード生成
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/

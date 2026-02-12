@@ -1,0 +1,7 @@
+# Keystore設定（このファイルをkey.propertiesにコピーして値を設定）
+# key.propertiesは.gitignoreに追加済みのため、コミットされません
+
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=upload
+storeFile=../upload-keystore.jks
